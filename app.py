@@ -57,7 +57,7 @@ app.layout = html.Div(children=[
             html.A(
                 id="gh-link",
                 children=["View on GitHub"],
-                href="https://github.com/plotly/dash-sample-apps/tree/master/apps/dash-pk-calc",
+                href="https://github.com/yasmenamr/Book-Recommendations",
                 style={"color": "black", "border": "solid 1px white",'background':'#CCFFF'},
 
 
