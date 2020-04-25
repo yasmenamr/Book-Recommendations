@@ -22,10 +22,6 @@ import utils
 APP_PATH=os.path.dirname(os.path.abspath(__file__))
 
 
-book_info = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "items_info222.dat")),sep='\t')
-book_ratings = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "book_ratings.dat")),sep='\t',index_col=False)
-
-
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 

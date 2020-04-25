@@ -10,7 +10,7 @@ from surprise import Dataset, KNNWithMeans, Reader
 
 APP_PATH=os.path.dirname(os.path.abspath(__file__))
 
-book_info = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "items_info222.dat")),sep='\t',index_col=False)
+book_info = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "items_info.dat")),sep='\t',index_col=False)
 book_ratings = pd.read_csv(os.path.join(APP_PATH, os.path.join("data", "book_ratings.dat")),sep='\t',index_col=False)
 
 
